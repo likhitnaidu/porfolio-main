@@ -102,7 +102,7 @@ const Navbar = () => {
 
           {/* Resume Button */}
           <motion.a
-            href="#contact"
+            href="https://drive.google.com/file/d/1aaGJYZrbCwJUAp_ienJk1tYDU9Dr1MOn/view"
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
