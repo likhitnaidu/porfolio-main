@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { HiArrowDown, HiDownload } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Hero = () => {
   const headlines = [
@@ -109,7 +110,7 @@ const Hero = () => {
               {[
                 { icon: FaGithub, href: 'https://github.com/likhitnaidu', label: 'GitHub' },
                 { icon: FaLinkedin, href: 'https://linkedin.com/in/m-likhit-naidu-906083217/', label: 'LinkedIn' },
-                { icon: FaLeetcode, href: 'https://leetcode.com', label: 'LeetCode' },
+                { icon: SiLeetcode, href: 'https://leetcode.com', label: 'LeetCode' },
               ].map(({ icon: Icon, href, label }) => (
                 <motion.a
                   key={label}
