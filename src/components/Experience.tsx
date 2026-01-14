@@ -6,10 +6,10 @@ import { HiAcademicCap, HiCode, HiLightningBolt, HiStar } from 'react-icons/hi';
 const timeline = [
   {
     id: 1,
-    title: 'CSE Student',
-    organization: 'University',
-    period: '2022 - Present',
-    description: 'Pursuing Computer Science & Engineering. Building a strong foundation in algorithms, data structures, and software engineering principles.',
+    title: 'Road to CSE Student',
+    organization: 'Narayana',
+    period: '2022 - 2024',
+    description: 'Pursuing Computer Science & Engineering. Building a strong foundation in Maths.',
     icon: HiAcademicCap,
     type: 'education',
   },
@@ -33,10 +33,10 @@ const timeline = [
   },
   {
     id: 4,
-    title: 'Target: ₹50k/month Internship',
-    organization: 'Career Goal',
+    title: 'UDAYA 1.0 - Hackathon',
+    organization: 'DSCE',
     period: '2025',
-    description: 'Actively seeking opportunities to work with innovative teams on products that matter. Open to remote positions.',
+    description: 'Actively seeking opportunities to work with innovative teams on products that matter. Made a ecucational platform',
     icon: HiStar,
     type: 'goal',
   },
