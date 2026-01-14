@@ -107,9 +107,9 @@ const Hero = () => {
             {/* Social Links */}
             <motion.div variants={itemVariants} className="flex items-center gap-6 pt-4">
               {[
-                { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
-                { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-                { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
+                { icon: FaGithub, href: 'https://github.com/likhitnaidu', label: 'GitHub' },
+                { icon: FaLinkedin, href: 'https://linkedin.com/in/m-likhit-naidu-906083217/', label: 'LinkedIn' },
+                { icon: FaLeetcode, href: 'https://leetcode.com', label: 'LeetCode' },
               ].map(({ icon: Icon, href, label }) => (
                 <motion.a
                   key={label}
