@@ -20,7 +20,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/likhitnaidu', label: 'GitHub', username: '@likhitnaidu' },
     { icon: FaLinkedin, href: 'https://linkedin.com/in/m-likhit-naidu-906083217/', label: 'LinkedIn', username: 'Likhit Naidu' },
-    { icon: SiLeetcode, href: 'https://leetcode.com/u/Likhit_naidu/', label: 'LeetCode' },
+    { icon: SiLeetcode, href: 'https://leetcode.com/u/Likhit_naidu/', label: 'Likhit naidu' },
   ];
 
   return (
