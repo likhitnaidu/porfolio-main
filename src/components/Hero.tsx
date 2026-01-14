@@ -94,7 +94,7 @@ const Hero = () => {
                 <HiArrowDown className="animate-bounce" />
               </motion.a>
               <motion.a
-                href="#contact"
+                href="https://drive.google.com/file/d/1aaGJYZrbCwJUAp_ienJk1tYDU9Dr1MOn/view"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-mono font-medium rounded hover:bg-primary/10 transition-colors"
