@@ -14,12 +14,12 @@ const skillCategories = [
     description: 'Building beautiful, responsive interfaces',
     icon: HiCube,
     skills: [
-      { name: 'React', icon: SiReact, level: 90 },
-      { name: 'TypeScript', icon: SiTypescript, level: 85 },
-      { name: 'JavaScript', icon: SiJavascript, level: 95 },
+      { name: 'React', icon: SiReact, level: 60 },
+      { name: 'TypeScript', icon: SiTypescript, level: 25 },
+      { name: 'JavaScript', icon: SiJavascript, level: 65 },
       { name: 'HTML5', icon: SiHtml5, level: 95 },
       { name: 'CSS3', icon: SiCss3, level: 90 },
-      { name: 'Tailwind', icon: SiTailwindcss, level: 95 },
+      { name: 'Tailwind', icon: SiTailwindcss, level: 85 },
     ],
   },
   {
@@ -27,12 +27,12 @@ const skillCategories = [
     description: 'Shipping code efficiently',
     icon: HiCube,
     skills: [
-      { name: 'Git', icon: SiGit, level: 85 },
-      { name: 'GitHub', icon: SiGithub, level: 90 },
-      { name: 'Vercel', icon: SiVercel, level: 85 },
-      { name: 'Vite', icon: SiVite, level: 90 },
+      { name: 'Git', icon: SiGit, level: 65 },
+      { name: 'GitHub', icon: SiGithub, level: 63 },
+      { name: 'Vercel', icon: SiVercel, level: 65 },
+      { name: 'Vite', icon: SiVite, level: 20 },
       { name: 'Figma', icon: SiFigma, level: 75 },
-      { name: 'Node.js', icon: SiNodedotjs, level: 70 },
+      { name: 'Node.js', icon: SiNodedotjs, level: 10 },
     ],
   },
   {
@@ -40,8 +40,9 @@ const skillCategories = [
     description: 'Exploring the future of development',
     icon: HiSparkles,
     skills: [
-      { name: 'Prompt Engineering', icon: HiSparkles, level: 85 },
-      { name: 'LLM Integration', icon: HiSparkles, level: 70 },
+      { name: 'Prompt Engineering', icon: HiSparkles, level: 75 },
+      { name: 'LLM Integration', icon: HiSparkles, level: 8 },
+      { name: 'AI systems engineering', icon: HiSparkles, level: 10 },
     ],
   },
   {
@@ -49,9 +50,9 @@ const skillCategories = [
     description: 'Currently exploring',
     icon: HiCube,
     skills: [
-      { name: 'Rust', icon: SiRust, level: 30 },
+      { name: 'Rust', icon: SiRust, level: 2 },
       { name: 'C/C++', icon: SiCplusplus, level: 40 },
-      { name: 'Python', icon: SiPython, level: 50 },
+      { name: 'Python', icon: SiPython, level: 65 },
     ],
   },
 ];
