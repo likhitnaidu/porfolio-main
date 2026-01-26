@@ -39,16 +39,16 @@ const About = () => {
           >
             <p className="text-muted-foreground leading-relaxed">
               I'm not your typical developer. While others debate tabs vs spaces, 
-              I'm busy <span className="text-foreground font-medium">shipping products</span> that 
+              I'm busy <span className="text-foreground font-medium">building products</span> that 
               actually solve problems. My journey started with curiosity, evolved through countless 
-              late nights of debugging, and led me to where I am now—a frontend engineer with a 
+              late nights of debugging, and led me to where I am now.A frontend engineer with a 
               product mindset.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Currently pursuing my <span className="text-foreground font-medium">CSE degree</span>, 
               I spend most of my time exploring the intersection of 
               <span className="text-primary"> AI and web development</span>. I believe the best 
-              interfaces are invisible—they just work. That's what I strive to build.
+              interfaces are invisible. That's what I strive to build.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               When I'm not coding, you'll find me exploring new tech, reading about system design, 
@@ -60,7 +60,7 @@ const About = () => {
             <div className="pt-4">
               <p className="text-foreground font-mono text-sm mb-4">Technologies I work with:</p>
               <div className="grid grid-cols-2 gap-2">
-                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Next.js', 'Node.js', 'TailwindCSS'].map((tech, i) => (
+                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Python', 'Llama3', 'TailwindCSS'].map((tech, i) => (
                   <motion.div
                     key={tech}
                     initial={{ opacity: 0, x: -20 }}
