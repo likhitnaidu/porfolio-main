@@ -79,8 +79,7 @@ const Hero = () => {
               variants={itemVariants}
               className="text-muted-foreground max-w-lg text-base md:text-lg leading-relaxed"
             >
-              Product-minded frontend engineer crafting exceptional digital experiences. 
-              Currently diving deep into AI and LLMs while shipping production-ready applications.
+              Computer Science Engineering student focused on software development and applied AI. I build projects in Python and JavaScript while actively developing strong foundations in data structures, algorithms, and system design through practical work.
             </motion.p>
 
             {/* CTAs */}
